@@ -19,4 +19,7 @@ extends TextureRect
 func _input(event):
 	if event is InputEventMouseButton:
 		if event.button_index == BUTTON_LEFT and event.pressed:
-			get_tree().change_scene("res://game_view.tscn")
+			var play_x = event.position.x
+			var play_y = event.position.y
+			if (play_x > 125 and play_x < 380 and play_y > 90 and play_y < 145):
+				get_tree().change_scene("res://game_view.tscn")
