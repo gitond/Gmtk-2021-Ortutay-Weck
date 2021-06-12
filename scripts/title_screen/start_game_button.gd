@@ -21,5 +21,6 @@ func _input(event):
 		if event.button_index == BUTTON_LEFT and event.pressed:
 			var play_x = event.position.x
 			var play_y = event.position.y
+			print(event.position)
 			if (play_x > 125 and play_x < 380 and play_y > 90 and play_y < 145):
 				get_tree().change_scene("res://game_view.tscn")
