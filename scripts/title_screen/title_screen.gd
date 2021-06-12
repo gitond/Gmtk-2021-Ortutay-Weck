@@ -12,14 +12,16 @@ extends MarginContainer
 # and the same thing will be done to the y values of course.
 
 # InpValues member format: [smallerCoordinate,biggerCoordinate,id]
-var InpValuesX = [[125,380,"INP_ID_1"]]
+var InpValuesX = [[50,380,"INP_ID_1"]]
 var InpValuesY = [[90,145,"INP_ID_1"]]
 
 var possibleValidInputIdsX = []
 var possibleValidInputIdsY = []
 
 # Called when the node enters the scene tree for the first time.
-#func _ready():
+func _ready():
+	get_node("PlayButton").global_position = Vector2(150, 150)
+	get_node("TutorialButton").global_position = Vector2(150, 375)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
