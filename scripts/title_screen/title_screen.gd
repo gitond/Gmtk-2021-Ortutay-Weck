@@ -12,8 +12,8 @@ extends MarginContainer
 # and the same thing will be done to the y values of course.
 
 # InpValues member format: [smallerCoordinate,biggerCoordinate,id]
-var InpValuesX = [[50,380,"INP_ID_1"]]
-var InpValuesY = [[90,145,"INP_ID_1"]]
+var InpValuesX = [[25,275,"INP_ID_1"]]
+var InpValuesY = [[120,200,"INP_ID_1"]]
 
 var possibleValidInputIdsX = []
 var possibleValidInputIdsY = []
