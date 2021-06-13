@@ -51,4 +51,39 @@ __meta__ = {
 
 [node name="Ship14" type="Sprite" parent="Ships"]
 
+[node name="Icons" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Icon01" type="Sprite" parent="Icons"]
+
+[node name="Icon02" type="Sprite" parent="Icons"]
+
+[node name="Icon03" type="Sprite" parent="Icons"]
+
+[node name="Icon04" type="Sprite" parent="Icons"]
+
+[node name="Icon05" type="Sprite" parent="Icons"]
+
+[node name="Icon06" type="Sprite" parent="Icons"]
+
+[node name="Icon07" type="Sprite" parent="Icons"]
+
+[node name="Icon08" type="Sprite" parent="Icons"]
+
+[node name="Icon09" type="Sprite" parent="Icons"]
+
+[node name="Icon10" type="Sprite" parent="Icons"]
+
+[node name="Icon11" type="Sprite" parent="Icons"]
+
+[node name="Icon12" type="Sprite" parent="Icons"]
+
+[node name="Icon13" type="Sprite" parent="Icons"]
+
+[node name="Icon14" type="Sprite" parent="Icons"]
+
 [connection signal="timeout" from="main_timer" to="." method="on_main_timer_timeout"]
